@@ -1,0 +1,296 @@
+#btnBack{
+    width: 55px;
+    height: 55px;
+    margin-left: 8%;
+    margin-top: 5%;
+    color: white;
+}
+
+#back{
+    width: 5%;
+    display: inline-block;
+    background: radial-gradient(#6b8eaf, transparent);
+    border-radius: 20px;
+}
+
+#container{
+    margin-left: 3%;
+    display: inline-block;
+}
+
+#header{
+	height: 50%;
+    background: url(../img/plata.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+#rowCards{
+	align-items: center;
+}
+
+.presYaho{
+	height: 240px;
+	background: rgba(154, 173, 196, 0.9);
+    color: #E4EBF7;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border: solid 1px;
+    box-shadow: 0px 0px 9px 4px white;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+h1{
+	text-align: center;
+	font-size: 25px;
+	margin-top: 5%;
+}
+
+#totalPresupuesto, #totalAhorros{
+	text-align: center;
+	font-size: 35px;
+}
+
+.totales{
+	display: inline-block;
+}
+
+.totalesPresupuesto{
+    font-size: 20px;
+}
+
+#contIngTotales{
+	width: 60%;
+    margin: 0 auto;
+    background-color: rgba(91, 215, 79, 0.8);
+    padding: 5px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ingresosTotales, #egresosTotales{
+    margin-left: 4%;
+}
+
+#ingresosTnúmero, #egresosTnúmero{
+    margin-right: 4%;
+}
+
+#contEgrTotales{
+	width: 60%;
+    margin: 0 auto;
+    background-color: rgba(252, 79, 79, 0.8);
+    padding: 5px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#valorUSD{
+	width: 43%;
+    margin: 0 auto;
+    margin-left: 51%;
+    background-color:  rgba(76, 106, 126, 0.5);
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#valorEUR{
+	width: 43%;
+    margin: 0 auto;
+    margin-left: 51%;
+    background-color: rgba(76, 106, 126, 0.5);
+    padding: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+#conversorBtn{
+    display: inline-block;
+    width: 29%;
+    margin: 0 auto;
+    margin-left: 67%;
+    background-color: rgba(76, 106, 126, 0.5);
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 3%;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    border: solid 1px rgb(76, 106, 126);
+}
+
+#conversorBtn:hover{
+    background-color: #9AADC4;
+    color: #4C6A7E;
+}
+
+.agregarBtn{
+    font-size: 35px;
+    background: none;
+    border: none;
+    color: #28B9B5;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.1;
+    margin-left: 10px;
+}
+
+.agregarBtn:active{ transform: translateY(2px); }
+
+#contDato{
+    background-color: #E4EBF7;
+}
+
+#centro{
+    width: 70%;
+    margin: auto;
+    background-color: inherit;
+}
+
+.itemsDato{
+    height: 80%;
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+
+#descripción{
+    width: 51%;
+}
+
+#valor{
+    width: 14%;
+}
+
+#signo{
+    width: 6%;
+    text-align: center;
+}
+
+select{
+    color: gray;
+}
+
+select, input{
+    color: -internal-light-dark(none) !important;
+    border: solid 1px rgb(154, 173, 196);
+    border-radius: 2px;
+}
+
+select:focus, input:focus{
+    outline: none;
+    border: solid 1px rgb(76, 106, 126);
+}
+
+p{
+    display: inline-block;
+    font-size: 15px;
+    color: #4C6A7E;
+}
+
+.pesos{
+    float: right;
+}
+
+.pesosIngresos, .eliminarBtnI{
+    color: #4FD7B2;
+}
+
+#títuloIngreso{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    color: #4FD7B2;
+}
+
+.pesosEgresos, .eliminarBtnE{
+    color: #FA9583;
+}
+
+#títuloEgreso{
+    width: 70%;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    color: #FA9583;
+
+}
+
+.lista{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.línea{
+    margin: 0;
+    margin-bottom: 2%;
+}
+.hrListas{
+    margin: 0 auto;
+    margin-bottom: 2%;
+    width: 70%;
+}
+
+#listaIngresos, #listaEgresos{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*.eliminarBtnI, .eliminarBtnE{
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    float: right;
+    display: none;
+}
+
+.listaIngresos:hover .eliminarBtnI, .listaEgresos:hover .eliminarBtnE{
+    display: block;
+}
+
+.listaIngresos:hover .pesos, .listaEgresos:hover .pesos{
+    transform: translateX(-20px);
+    transition-duration: 0.6s;
+}
+
+.listaIngresos:hover p, .listaEgresos: hover p{
+    margin-bottom: 1.5rem;
+}
+
+.eliminarBtnI:active, .eliminarBtnE:active{
+    transform: translateY(2px);
+}
